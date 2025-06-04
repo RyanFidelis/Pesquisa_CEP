@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localiza Fácil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <img src="Design.png" alt="Logo" class="logo">
+            <h1 class="title">Localiza Fácil</h1>
+        </header>
+        <main>
+            <label for="cep-input" class="label">Digite o CEP:</label>
+            <input type="text" id="cep-input" class="input" placeholder="FORMATO: 00000-000">
+            <button id="pesquisar-btn" class="button">Pesquisar</button>
+            <div id="resultados" class="results"></div>
+            <div id="historico" class="history">
+                <p class="history-title">Histórico:</p>
+                <div id="historico-conteudo" class="history-content"></div>
+                <div id="historico-actions" class="history-actions" style="display: none;">
+                    <button id="limpar-historico" class="clear-button">
+                        <img src="lixeira.png" alt="Limpar" class="clear-icon">
+                        <span class="clear-text">Limpar</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-links">
+                <a href="#">Ajuda</a>
+                <a href="#">Dúvidas</a>
+                <a href="#">Segurança</a>
+                <a href="#">Fale Conosco</a>
+            </div>
+            <div class="social-media">
+                <p>Redes Sociais</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/ryan_sf__/?__pwa=1" target="_blank" class="social-icon">
+                        <img src="instagram.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.facebook.com/ryan.sf.14" target="_blank" class="social-icon">
+                        <img src="facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.linkedin.com/in/ryan-santos-fidelis-039997264/" target="_blank" class="social-icon">
+                        <img src="linkedin.png" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
